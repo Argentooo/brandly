@@ -1,3 +1,3 @@
 # Argen
 
-https://github.com/Argentooo/brandly.git
+https://argentooo.github.io/brandly/
