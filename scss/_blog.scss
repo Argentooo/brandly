@@ -1,0 +1,54 @@
+@import "vars";
+
+.blog {
+  margin-top: 56px;
+  &__title {
+    margin-bottom: 70px;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  &__item-title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: $accent;
+  }
+  &__item-details {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: $dark;
+  }
+  &__item-leed {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #9a9a9a;
+  }
+  &__item-link {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: $dark;
+    text-decoration: none;
+    padding: 4px 25px 4px 25px;
+    border: 1px solid $dark;
+  }
+  &__item-link:hover {
+    background-color: rgba($color: $accent, $alpha: 1);
+  }
+}

@@ -1,0 +1,19 @@
+@import "vars";
+
+.footer {
+  margin-top: 90px;
+  background-image: url(/images/6ba.jpg);
+  background-size: cover;
+  min-height: 157px;
+  &__p {
+    font-family: $secondary-font;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: $light;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
