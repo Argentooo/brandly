@@ -22,7 +22,7 @@
     text-decoration: none;
   }
   &__men {
-    background-image: url(/images/man.png);
+    background-image: url(/images/men.jpg);
     min-height: 419px;
   }
   &__item {
@@ -31,10 +31,10 @@
     justify-content: center;
   }
   &__women {
-    background-image: url(/images/woman.png);
+    background-image: url(/images/women.jpg);
     min-height: 419px;
   }
   &__accessories {
-    background-image: url(/images/watch.png);
+    background-image: url(/images/watch.jpg);
   }
 }
