@@ -221,7 +221,7 @@ body {
 }
 
 .categories__men {
-  background-image: url(/images/men.jpg);
+  background-image: url("../images/men.jpg");
   min-height: 419px;
 }
 
@@ -238,12 +238,12 @@ body {
 }
 
 .categories__women {
-  background-image: url(/images/women.jpg);
+  background-image: url("../images/women.jpg");
   min-height: 419px;
 }
 
 .categories__accessories {
-  background-image: url(/images/watch.jpg);
+  background-image: url("../images/watch.jpg");
 }
 
 .blog {
@@ -310,7 +310,7 @@ body {
 
 .footer {
   margin-top: 90px;
-  background-image: url(/images/6ba.jpg);
+  background-image: url("../images/6ba.jpg");
   background-size: cover;
   min-height: 157px;
 }
